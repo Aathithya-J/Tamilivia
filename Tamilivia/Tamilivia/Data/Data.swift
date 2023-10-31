@@ -62,12 +62,19 @@ struct Thirukkural: Codable {
     let paal_te: String
 }
 
-struct Pazhamozhi: Codable {
+struct Pazhamozhi {
     
 }
 
-struct BookPhrase: Codable {
-    
+enum Book: String, CaseIterable {
+    case Ennangal
+    case VetrikuEzhuPadigal
+    case OorukkuNallathuSolven
+}
+
+struct BookPhrase {
+    let phrase: String
+    let book: Book
 }
 
 struct Sorporul: Codable {
