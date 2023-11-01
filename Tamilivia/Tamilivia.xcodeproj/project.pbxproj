@@ -13,8 +13,8 @@
 		6D05BD542AEF7C7300EE0965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D05BD532AEF7C7300EE0965 /* Assets.xcassets */; };
 		6D05BD572AEF7C7300EE0965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D05BD562AEF7C7300EE0965 /* Preview Assets.xcassets */; };
 		6D05BD5E2AEF7CB700EE0965 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D05BD5D2AEF7CB700EE0965 /* Data.swift */; };
-		6D05BD602AEFAC0600EE0965 /* thirukkural.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D05BD5F2AEFAC0600EE0965 /* thirukkural.json */; };
-		6DB90C012AF116A200B098E3 /* pazhamozhi.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB90C002AF116A100B098E3 /* pazhamozhi.json */; };
+		6D1DEEB02AF2748F001EB22B /* pazhamozhi.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D1DEEAE2AF2748F001EB22B /* pazhamozhi.json */; };
+		6D1DEEB12AF2748F001EB22B /* thirukkural.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D1DEEAF2AF2748F001EB22B /* thirukkural.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		6D05BD532AEF7C7300EE0965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D05BD562AEF7C7300EE0965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D05BD5D2AEF7CB700EE0965 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		6D05BD5F2AEFAC0600EE0965 /* thirukkural.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = thirukkural.json; sourceTree = "<group>"; };
-		6DB90C002AF116A100B098E3 /* pazhamozhi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pazhamozhi.json; sourceTree = "<group>"; };
+		6D1DEEAE2AF2748F001EB22B /* pazhamozhi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pazhamozhi.json; sourceTree = "<group>"; };
+		6D1DEEAF2AF2748F001EB22B /* thirukkural.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = thirukkural.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 		6D05BD612AEFAC3B00EE0965 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6D05BD5F2AEFAC0600EE0965 /* thirukkural.json */,
-				6DB90C002AF116A100B098E3 /* pazhamozhi.json */,
+				6D1DEEAE2AF2748F001EB22B /* pazhamozhi.json */,
+				6D1DEEAF2AF2748F001EB22B /* thirukkural.json */,
 				6D05BD5D2AEF7CB700EE0965 /* Data.swift */,
 			);
 			path = Data;
@@ -145,10 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D05BD602AEFAC0600EE0965 /* thirukkural.json in Resources */,
 				6D05BD572AEF7C7300EE0965 /* Preview Assets.xcassets in Resources */,
-				6DB90C012AF116A200B098E3 /* pazhamozhi.json in Resources */,
 				6D05BD542AEF7C7300EE0965 /* Assets.xcassets in Resources */,
+				6D1DEEB12AF2748F001EB22B /* thirukkural.json in Resources */,
+				6D1DEEB02AF2748F001EB22B /* pazhamozhi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

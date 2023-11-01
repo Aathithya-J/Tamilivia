@@ -4,6 +4,7 @@
 //
 //  Created by KAVIN JAYAKUMAR stu on 30/10/23.
 //
+// MARK: DO NOT EDIT
 
 import SwiftUI
 import SwiftData
@@ -15,15 +16,18 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+//                MARK: For Testing, DO *NOT* REMOVE
+//                ForEach(thirukkurals) { thirukkural in
+//                    HStack(alignment: .top, spacing: 5) {
+//                        Text("\(thirukkural.kural_no). ")
+//                        Text("\(thirukkural.kural_ta)")
+//                            .lineLimit(2)
+//                            .minimumScaleFactor(0.01)
+//                            .scaledToFit()
+//                    }
+//                }
             }
+            .listStyle(.plain)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
