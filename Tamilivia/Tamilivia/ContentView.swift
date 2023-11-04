@@ -18,13 +18,31 @@ struct ContentView: View {
             List {
 //                MARK: For Testing, DO *NOT* REMOVE
 //                ForEach(thirukkurals) { thirukkural in
-//                    HStack(alignment: .top, spacing: 5) {
-//                        Text("\(thirukkural.kural_no). ")
-//                        Text("\(thirukkural.kural_ta)")
-//                            .lineLimit(2)
-//                            .minimumScaleFactor(0.01)
-//                            .scaledToFit()
-//                    }
+//                    NavigationLink(destination: {
+//                        Text(thirukkural.mu_va_urai_ta)
+//                            .padding()
+//                    }, label: {
+//                        HStack(alignment: .top, spacing: 5) {
+//                            Text("\(thirukkural.kural_no). ")
+//                            Text("\(thirukkural.kural_ta)")
+//                                .lineLimit(2)
+//                                .minimumScaleFactor(0.01)
+//                                .scaledToFit()
+//                        }
+//                    })
+//                }
+              
+//                ForEach(pazhamozhis) { pazhamozhi in
+//                    NavigationLink(destination: {
+//                        Text("\(pazhamozhi.proverb_meaning)")
+//                            .padding()
+//                    }, label: {
+//                        HStack(alignment: .top, spacing: 5) {
+//                            Text("\(pazhamozhi.proverb_no). ")
+//                            Text("\(pazhamozhi.proverb_ta)")
+//                                .lineLimit(2)
+//                        }
+//                    })
 //                }
             }
             .listStyle(.plain)

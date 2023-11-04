@@ -7,7 +7,6 @@
 
 import Foundation
 
-// TODO: NEED TO MAKE DUPLICATE
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
@@ -57,7 +56,12 @@ struct Thirukkural: Identifiable, Decodable {
     var paal_te: String
 }
 
-struct Pazhamozhi: Codable {
+var pazhamozhis: [Pazhamozhi] = load("pazhamozhi.json")
+
+struct Pazhamozhi: Identifiable, Decodable {
+    var id: Int {
+        return proverb_no
+    }
     let proverb_no: Int
     let proverb_ta: String
     let proverb_meaning: String
