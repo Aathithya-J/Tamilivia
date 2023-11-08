@@ -48,7 +48,7 @@ struct Thirukkural: Identifiable, Decodable {
     var kural_en: String
     var kural_te: String
     var mu_va_urai_ta: String
-    var sa_pa_urai_ta: String
+    var so_pa_urai_ta: String
     var mu_va_urai_en: String
     var paal_no: Int
     var paal_ta: String
